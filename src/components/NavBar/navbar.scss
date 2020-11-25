@@ -1,0 +1,36 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 3fr;
+    height: 10vh;
+}
+
+.nav_item {
+    border: 1px solid black;
+}
+
+.above_line {
+    visibility: hidden;
+    background: black;
+    height: 0.3rem;
+    border: none;
+}
+
+@keyframes expand {
+    from {
+        visibility: hidden;
+        width: 0%;
+    }
+
+    to {
+        visibility: visible;
+        width: 100%;
+    }
+}
+
+.nav_item:hover {
+    cursor: pointer;
+}
+
+.nav_item:hover .above_line {
+    animation: expand 500ms forwards;
+}
