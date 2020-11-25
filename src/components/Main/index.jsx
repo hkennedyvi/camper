@@ -1,9 +1,24 @@
 import React, { Component } from 'react';
+import './main.scss';
+import HammockImage from './images/hammock.png';
 
 class Main extends Component {
     render() {
         return (
-            <div>HIII</div>
+            <section className="main">
+                <div className="left_container">
+                    <h3>wilderness worth wandering</h3>
+                    <p className="main_copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div className="right_container">
+                    <div className="header_container">
+                        <h1>Hangin' Out</h1>
+                    </div>
+                    <div className="image_container">
+                        <img className="main_image" src={HammockImage} alt="" />
+                    </div>
+                </div>
+            </section>
         )
     }
 }
