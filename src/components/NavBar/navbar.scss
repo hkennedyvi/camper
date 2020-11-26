@@ -10,6 +10,7 @@ $fontPrimary: #005757;
     background: transparent;
     color: white;
     align-items: center;
+    text-align: center;
 }
 
 .navbar.active {
@@ -29,7 +30,7 @@ $fontPrimary: #005757;
 }
 
 .nav_item {
-    border: 1px solid black;
+    // border: 1px solid black;
 }
 
 .nav_item:hover {
