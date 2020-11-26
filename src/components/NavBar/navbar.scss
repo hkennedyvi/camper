@@ -1,17 +1,49 @@
+$primaryBg: #c8e1f9;
+$fontPrimary: #005757;
+
 .navbar {
+    position: fixed;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr 3fr;
-    height: 10vh;
+    width: 100vw;
+    height: 8vh;
+    background: transparent;
+    color: white;
+    align-items: center;
+}
+
+.navbar.active {
+    animation: colorMe ease-in-out 500ms forwards;
+}
+
+@keyframes colorMe {
+    from {
+        background: transparent;
+    color: white;
+    }
+
+    to {
+        background: $primaryBg;
+        color: $fontPrimary;
+    }
 }
 
 .nav_item {
-    border: 1px solid black;
+    // border: 1px solid black;
+}
+
+.nav_item:hover {
+    cursor: pointer;
+}
+
+.nav_item:hover .above_line {
+    animation: expand 500ms forwards;
 }
 
 .above_line {
     visibility: hidden;
-    background: black;
-    height: 0.3rem;
+    background: $fontPrimary;
+    height: 0.2rem;
     border: none;
 }
 
@@ -23,14 +55,6 @@
 
     to {
         visibility: visible;
-        width: 100%;
+        width: 50%;
     }
-}
-
-.nav_item:hover {
-    cursor: pointer;
-}
-
-.nav_item:hover .above_line {
-    animation: expand 500ms forwards;
 }

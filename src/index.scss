@@ -1,9 +1,11 @@
+$primaryBg: #C8E1F9;
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  background: #C8E1F9;
+  background: $primaryBg;
   font-family: 'Rubik', sans-serif;
 }
 
