@@ -5,7 +5,7 @@ $secondaryBg : #e4740b;
 }
 
 .footer_top {
-    background: darkorange;
+    background: #fd9516;
     height: 10%;
 }
 
@@ -13,9 +13,16 @@ $secondaryBg : #e4740b;
     background: $secondaryBg;
     height: 90%;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
 }
 
 .footer_box {
     border: solid 1px black;
+}
+
+.footer_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 4rem 5rem;
 }
