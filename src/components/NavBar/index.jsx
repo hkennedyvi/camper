@@ -28,25 +28,25 @@ class NavBar extends Component {
                 <div className="nav_item">
                     <a href="/">
                         <hr className="above_line" />
-                    THING
+                    HOME
                     </a>
                 </div>
                 <div className="nav_item">
                     <a href="/">
                         <hr className="above_line" />
-                    THING
+                    ABOUT
                     </a>
                 </div>
                 <div className="nav_item">
                     <a href="/">
                         <hr className="above_line" />
-                    THING
+                    SHOP
                     </a>
                 </div>
                 <div className="nav_item">
                     <a href="/">
                         <hr className="above_line" />
-                    THING
+                    FAQ
                     </a>
                 </div>
                 <div>

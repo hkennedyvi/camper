@@ -6,10 +6,11 @@ $fontSecondary: #313131;
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100vw;
-    height: 180vh;
+    height: 100vh;
+    min-height: 80rem;
     overflow-x: hidden;
     color: $fontPrimary;
     text-align: start;
