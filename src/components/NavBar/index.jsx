@@ -44,7 +44,7 @@ class NavBar extends Component {
                     </a>
                 </div>
                 <div className="nav_item">
-                    <a href="/">
+                    <a href="/faq">
                         <hr className="above_line" />
                     FAQ
                     </a>
