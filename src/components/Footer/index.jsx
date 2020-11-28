@@ -6,7 +6,6 @@ class Footer extends Component {
         return (
             <section className="footer">
                 <div className="footer_top">
-                    TOPPPY
                 </div>
                 <div className="footer_bottom">
                     <div className="footer_box">
@@ -19,20 +18,26 @@ class Footer extends Component {
                             <span>X</span>
                         </div>
                     </div>
-                    <div className="footer_box">THING</div>
-                    <div className="footer_box">THING</div>
+                    <div className="lg_footer_box">
+                        <h5>Our Mission</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div className="lg_footer_box">
+                        <h5>Join Our Team</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
                     <div className="footer_box">
-                        <ul>
-                            <li>
+                        <ul className="footer_nav">
+                            <li className="footer_nav_item">
                                 <a href="/">THING</a>
                             </li>
-                            <li>
+                            <li className="footer_nav_item">
                                 <a href="/">THING</a>
                             </li>
-                            <li>
+                            <li className="footer_nav_item">
                                 <a href="/">THING</a>
                             </li>
-                            <li>
+                            <li className="footer_nav_item">
                                 <a href="/">THING</a>
                             </li>
                         </ul>
