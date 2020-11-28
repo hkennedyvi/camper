@@ -1,6 +1,21 @@
+$fontPrimary: #005757;
+
 .shop_container {
-    height: 200vh;
+    height: 230vh;
+    min-height: 90rem;
     padding: 5rem;
+}
+
+.shop_header {
+    color: $fontPrimary;
+    padding: 2rem 0;
+}
+
+.shop_header_underline {
+    background: $fontPrimary;
+    height: 0.3rem;
+    border-radius: 1em;
+    border: none;
 }
 
 .shop_grid {

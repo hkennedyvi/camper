@@ -55,10 +55,14 @@ class Shop extends Component {
 
         return (
             <section className="shop_container">
-                <h3>Shop</h3>
+                <h3 className="shop_header">
+                    Shop (Choose A Category)
+                    <hr className="shop_header_underline" />
+                </h3>
+
                 <div className="shop_grid">
                     {this.state.productSections.map((item, index) => {
-                        let styles = {
+                        const styles = {
                             height: "40rem",
                             border: "solid 1px black",
                             background: `url(${item.image})`,
