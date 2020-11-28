@@ -38,7 +38,7 @@ class NavBar extends Component {
                     </a>
                 </div>
                 <div className="nav_item">
-                    <a href="/">
+                    <a href="/store">
                         <hr className="above_line" />
                     SHOP
                     </a>
