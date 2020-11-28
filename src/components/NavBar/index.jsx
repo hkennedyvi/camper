@@ -20,24 +20,40 @@ class NavBar extends Component {
     render() {
         return (
             <nav className={`navbar ${this.state.isTop ? "" : "active"}`} >
-                <div>LOGO</div>
-                <div className="nav_item">
-                    <hr className="above_line" />
-                    THING
+                <div>
+                    <a href="/">
+                        LOGO
+                    </a>
                 </div>
                 <div className="nav_item">
-                    <hr className="above_line" />
+                    <a href="/">
+                        <hr className="above_line" />
                     THING
+                    </a>
                 </div>
                 <div className="nav_item">
-                    <hr className="above_line" />
+                    <a href="/">
+                        <hr className="above_line" />
                     THING
+                    </a>
                 </div>
                 <div className="nav_item">
-                    <hr className="above_line" />
+                    <a href="/">
+                        <hr className="above_line" />
                     THING
+                    </a>
                 </div>
-                <div>CART</div>
+                <div className="nav_item">
+                    <a href="/">
+                        <hr className="above_line" />
+                    THING
+                    </a>
+                </div>
+                <div>
+                    <a href="/">
+                        CART
+                    </a>
+                </div>
             </nav>
         )
     }
