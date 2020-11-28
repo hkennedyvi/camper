@@ -1,55 +1,52 @@
+$primaryBg: #f8debb;
+$secondaryBg: #87ceeb;
 $fontPrimary: #005757;
+$fontSecondary: #313131;
 
 .main {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 180vh;
     overflow-x: hidden;
-    padding: 10rem 0;
     color: $fontPrimary;
     text-align: start;
+    background: $primaryBg;
 }
 
-.left_container {
-    padding: 3rem;
-    width: 30%;
+.top_container {
+    width: 100%;
+    text-align: end;
+    padding: 0 5rem 0 0;
 }
 
-.main_copy {
-    line-height: 2rem;
-}
-
-.right_container {
-    width: 50%;
+.bottom_container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
     position: relative;
+    background: $secondaryBg;
 }
 
-.header_container {
+.sm_header_container {
     position: absolute;
-    top: 3rem;
-    left: 0;
+    top: 5rem;
     z-index: 10;
-}
-
-h1 {
-    margin: 0;
-    font-size: 5rem;
-    
-}
-
-h3 {
-    margin: 0;
-    font-size: 3rem;
-    color: $fontPrimary;
+    padding: 0 10rem;
 }
 
 .image_container {
-    position: absolute;
-    top: 0;
-    left: 0;
+    max-width: 100%;
 }
 
 .main_image {
-    max-width: 45rem;
+    max-width: 100%;
+}
+
+.main_copy {
+    color: $fontSecondary;
+    line-height: 2rem;
+    padding: 2rem 10rem;
 }
