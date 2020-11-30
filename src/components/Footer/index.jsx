@@ -44,13 +44,13 @@ class Footer extends Component {
                                 <a href="/">HOME</a>
                             </li>
                             <li className="footer_nav_item">
-                                <a href="/">ABOUT</a>
+                                <a href="/about">ABOUT</a>
                             </li>
                             <li className="footer_nav_item">
-                                <a href="/">SHOP</a>
+                                <a href="/store">SHOP</a>
                             </li>
                             <li className="footer_nav_item">
-                                <a href="/">FAQ</a>
+                                <a href="/faq">FAQ</a>
                             </li>
                         </ul>
                     </div>
