@@ -1,0 +1,47 @@
+.faq_box {
+    border: 1px black solid;
+    position: relative;
+    background: rgb(17, 71, 71);
+    color: yellow;
+    border-radius: 1em;
+    width: 90%;
+    padding: 5rem;
+}
+
+.faq_header {
+    padding: 2rem 0;
+}
+
+.faq_header_underline {
+    background: yellow;
+    height: 0.5rem;
+    border: none;
+}
+
+.placeholder {
+    font-size: 12rem;
+    color: white;
+    padding: 2rem 0;
+}
+
+.faq_copy {
+    font-size: 0.8rem;
+    line-height: 2rem;
+    color: white;
+}
+
+.faq_content {
+    display: none;
+    // transition: display 1000ms ease-in-out;
+}
+
+.faq_content.active {
+    display: block;
+    // transition: display 1000ms ease-in-out;
+}
+
+.faq_button {
+  position: absolute;
+  top: 7rem;
+  right: 10rem;
+}

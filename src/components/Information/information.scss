@@ -1,36 +1,14 @@
-.information_container {
-    padding: 5rem;
-    height: 300vh;
-}
+// .information_container {
+//     padding: 5rem;
+//     height: 100%;
+//     min-height: 250vh;
+// }
 
 .information_flex {
+    padding: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
     height: 100%;
-}
-
-.faq_box {
-    border: 1px black solid;
-    height: 30rem;
-    background: teal;
-    color: yellow;
-    border-radius: 1em;
-    width: 90%;
-    padding: 5rem;
-}
-
-.faq_header {
-   padding: 2rem 0;
-}
-
-.faq_header_underline {
-    background: yellow;
-    height: 0.5rem;
-    border: none;
-}
-
-.faq_copy {
-    line-height: 2rem;
+    min-height: 200vh;
 }

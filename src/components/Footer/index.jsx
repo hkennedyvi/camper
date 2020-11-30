@@ -10,12 +10,24 @@ class Footer extends Component {
                 <div className="footer_bottom">
                     <div className="footer_box">
                         <div className="footer_icons">
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-twitter-square"></i>
+                            <a href="/">
+                                <i className="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="/">
+                                <i className="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="/">
+                                <i className="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="/">
+                                <i className="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="/">
+                                <i className="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="/">
+                                <i className="fab fa-twitter-square"></i>
+                            </a>
                         </div>
                     </div>
                     <div className="lg_footer_box">
