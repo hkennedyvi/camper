@@ -8,24 +8,26 @@ class InformationCard extends Component {
         this.state = {
             isToggled: false
         };
-    
+
         // This binding is necessary to make `this` work in the callback
         this.handleMenuToggle = this.handleMenuToggle.bind(this);
-      };
-    
-      handleMenuToggle() {
+    };
+
+    handleMenuToggle() {
         this.setState(state => ({
-          isToggled: !state.isToggled
+            isToggled: !state.isToggled
         }));
-      };
-    
+    };
+
 
     render() {
 
         return (
             <div key={this.props.key} className="faq_box">
                 <h5 className="faq_header">{this.props.question}</h5>
-                <button onClick={this.handleMenuToggle} className="faq_button">
+                <button
+                    onClick={this.handleMenuToggle}
+                    className={`faq_button ${this.state.isToggled ? "active" : ""}`}>
                     <i className="far fa-caret-square-down"></i>
                 </button>
                 <hr className="faq_header_underline" />
@@ -35,7 +37,7 @@ class InformationCard extends Component {
                 </div>
             </div>
         );
-        
+
     };
 };
 

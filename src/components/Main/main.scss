@@ -3,51 +3,39 @@ $secondaryBg: #87ceeb;
 $fontPrimary: #005757;
 $fontSecondary: #313131;
 
-.main {
+.main_container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     width: 100vw;
-    height: 100vh;
-    min-height: 80rem;
-    overflow-x: hidden;
+    height: 70rem;
     color: $fontPrimary;
-    text-align: start;
     background: $primaryBg;
+    padding: 2rem 0;
 }
 
-.top_container {
-    width: 100%;
-    text-align: end;
-    padding: 0 5rem 0 0;
+.main_headers {
+    padding: 5rem 0;
+    text-align: center;
 }
 
-.bottom_container {
-    width: 80%;
+.main_subheader {
+    font-style: italic;
+    margin: 1rem 0 0 0;
+}
+
+.main_list_item {
     display: flex;
-    flex-direction: column;
-    position: relative;
-    background: $secondaryBg;
+    align-items: center;
+    margin: 2rem 5rem;
 }
 
-.sm_header_container {
-    position: absolute;
-    top: 5rem;
-    z-index: 10;
-    padding: 0 10rem;
-}
-
-.image_container {
-    max-width: 100%;
-}
-
-.main_image {
-    max-width: 100%;
+.main_bullet {
+    font-size: 5rem;
 }
 
 .main_copy {
     color: $fontSecondary;
     line-height: 2rem;
-    padding: 2rem 10rem;
+    padding: 0 5rem;
 }

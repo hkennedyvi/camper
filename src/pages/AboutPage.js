@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import campingBg from './images/camping.jpg';
+import cliffBg from './images/cliff.jpg';
 import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import About from '../components/About';
@@ -15,7 +15,7 @@ class AboutPage extends Component {
             alignItems: "start",
             height: "100vh",
             minHeight: "50rem",
-            background: `url(${campingBg})`,
+            background: `url(${cliffBg})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover"

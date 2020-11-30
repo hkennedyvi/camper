@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import kayakingBg from './images/kayaking.jpg';
+import surfBg from './images/surf.jpg';
 import NavBar from '../components/NavBar';
 import Information from '../components/Information';
 import Hero from '../components/Hero';
@@ -16,7 +16,7 @@ class FaqPage extends Component {
             alignItems: "start",
             height: "100vh",
             minHeight: "50rem",
-            background: `url(${kayakingBg})`,
+            background: `url(${surfBg})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover"
