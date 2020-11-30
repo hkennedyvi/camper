@@ -32,7 +32,7 @@ class NavBar extends Component {
                     </a>
                 </div>
                 <div className="nav_item">
-                    <a href="/">
+                    <a href="/about">
                         <hr className="above_line" />
                     ABOUT
                     </a>

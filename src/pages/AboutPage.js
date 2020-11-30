@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import campingBg from './images/camping.jpg';
 import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
-import Main from '../components/Main';
+import About from '../components/About';
 import Footer from '../components/Footer';
 
-class Home extends Component {
+class AboutPage extends Component {
     render() {
-        const pageInfo = "HOME";
+        const pageInfo = "ABOUT";
         const pageStyling = {
             display: "flex",
             flexDirection: "column",
@@ -24,11 +24,11 @@ class Home extends Component {
             <div>
             <NavBar />
             <Hero pageInfo={pageInfo}  pageStyling={pageStyling} />
-            <Main />
+            <About />
             <Footer />
             </div>
         )
     }
 };
 
-export default Home;
+export default AboutPage;

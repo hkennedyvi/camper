@@ -5,7 +5,7 @@ import Information from '../components/Information';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 
-class Store extends Component {
+class FaqPage extends Component {
     render() {
         const pageInfo = "FAQ";
 
@@ -32,4 +32,4 @@ class Store extends Component {
     }
 };
 
-export default Store;
+export default FaqPage;
