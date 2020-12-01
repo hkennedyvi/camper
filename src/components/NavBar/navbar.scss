@@ -1,5 +1,6 @@
 $primaryBg: #c8e1f9;
 $fontPrimary: #005757;
+$fontSecondary: #ffffff;
 
 .navbar {
     position: fixed;
@@ -8,7 +9,7 @@ $fontPrimary: #005757;
     width: 100vw;
     height: 4rem;
     background: transparent;
-    color: white;
+    color: $fontSecondary;
     align-items: center;
     text-align: center;
     z-index: 20;
@@ -21,7 +22,7 @@ $fontPrimary: #005757;
 @keyframes colorMe {
     from {
         background: transparent;
-        color: white;
+        color: $fontSecondary;
     }
 
     to {

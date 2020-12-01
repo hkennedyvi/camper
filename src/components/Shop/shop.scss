@@ -1,4 +1,5 @@
 $fontPrimary: #005757;
+$fontSecondary : #B02E0C;
 
 .shop_container {
     height: 230vh;
@@ -40,5 +41,5 @@ $fontPrimary: #005757;
 .shop {
     visibility: hidden;
     font-weight: bolder;
-    color: red;
+    color: $fontSecondary;
 }

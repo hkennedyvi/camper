@@ -1,9 +1,12 @@
-$primaryBg: #ffb356;
-$secondaryBg : #ff9c3e;
+$primaryBg: #EB4511;
+$secondaryBg : #B02E0C;
+$fontPrimary: #ffffff;
+$fontSecondary: #9b9b9b;
 
 .footer {
     height: 50vh;
     min-height: 15rem;
+    color: $fontPrimary
 }
 
 .footer_top {
@@ -41,6 +44,6 @@ $secondaryBg : #ff9c3e;
 }
 
 .footer_nav_item:hover {
-    color:white;
+    color:$fontSecondary;
     font-style: italic;
 }

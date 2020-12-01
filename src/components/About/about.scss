@@ -1,10 +1,7 @@
-// .about_container {
-//     display: flex;
-//     flex-direction: column;
-// }
+$primaryBg: #f8debb;
 
 .about_card {
-    background: orange;
+    background: $primaryBg;
     margin: 5rem;
     display: flex;
     align-items: center;

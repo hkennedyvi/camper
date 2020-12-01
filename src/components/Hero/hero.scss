@@ -1,9 +1,10 @@
+$fontPrimary: #ffffff;
+$primaryBg: #EB4511;
+
 .hero_header {
-    // position: absolute;
-    // top: 50%;
     padding: 0 4rem;
     text-align: center;
     vertical-align: middle;
-    color: white;
-    background: #ec9a00;
+    color: $fontPrimary;
+    background: $primaryBg;
 }
