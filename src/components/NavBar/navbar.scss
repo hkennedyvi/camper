@@ -57,3 +57,9 @@ $fontSecondary: #ffffff;
         width: 50%;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}

@@ -11,7 +11,7 @@ class Hero extends Component {
                     <img className="about_image" src={hammockImg} alt="" />
                 </div>
                 <div className="text_container">
-                    <h1>ABOUT US</h1>
+                    <h1>OUR STORY</h1>
                     <hr />
                     <p className="about_copy">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,

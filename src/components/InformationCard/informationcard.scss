@@ -57,3 +57,10 @@ $primaryBg: #ffffff;
     transform: rotate(180deg);
     transition: transform ease-in-out 100ms;
 }
+
+@media only screen and (max-width: 600px) {
+    .faq_box {
+        width: 100%;
+        margin: 2rem 0;
+    }
+}
