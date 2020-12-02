@@ -1,0 +1,73 @@
+.faq_box {
+  position: relative;
+  background: #ffffff;
+  border-radius: 1em;
+  width: 90%;
+  padding: 2rem 5rem;
+  margin: 5rem 0;
+}
+
+.faq_header {
+  padding: 2rem 0;
+  color: #005757;
+}
+
+.faq_header_underline {
+  background: #005757;
+  height: 0.5rem;
+  border: none;
+}
+
+.placeholder {
+  font-size: 12rem;
+  color: #000000;
+  padding: 2rem 0;
+}
+
+.faq_copy {
+  font-size: 0.8rem;
+  line-height: 2rem;
+  color: #000000;
+}
+
+.faq_content {
+  display: none;
+}
+
+.faq_content.active {
+  display: block;
+}
+
+.faq_button {
+  position: absolute;
+  top: 4rem;
+  right: 5rem;
+  border: none;
+  background: transparent;
+  color: #005757;
+  font-size: 2rem;
+  -webkit-transition: -webkit-transform ease-in-out 100ms;
+  transition: -webkit-transform ease-in-out 100ms;
+  transition: transform ease-in-out 100ms;
+  transition: transform ease-in-out 100ms, -webkit-transform ease-in-out 100ms;
+}
+
+.faq_button.active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: -webkit-transform ease-in-out 100ms;
+  transition: -webkit-transform ease-in-out 100ms;
+  transition: transform ease-in-out 100ms;
+  transition: transform ease-in-out 100ms, -webkit-transform ease-in-out 100ms;
+}
+
+@media only screen and (max-width: 600px) {
+  .faq_box {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  .faq_button {
+    right: 2rem;
+  }
+}
+/*# sourceMappingURL=informationcard.css.map */

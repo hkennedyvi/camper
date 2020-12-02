@@ -1,0 +1,57 @@
+.shop_container {
+  height: 230vh;
+  min-height: 95rem;
+  padding: 5rem;
+}
+
+.shop_header {
+  color: #005757;
+  padding: 2rem 0;
+}
+
+.shop_header_underline {
+  background: #005757;
+  height: 0.3rem;
+  border-radius: 1em;
+  border: none;
+}
+
+.shop_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.shop_item:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.shop_item:hover .shop {
+  visibility: visible;
+}
+
+.item_info {
+  padding: 1rem 2rem;
+}
+
+.shop {
+  visibility: hidden;
+  font-weight: bolder;
+  color: #B02E0C;
+}
+
+@media only screen and (max-width: 600px) {
+  .shop_container {
+    height: 230vh;
+    min-height: 355rem;
+    padding: 3rem;
+  }
+  .shop_grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=shop.css.map */

@@ -19,6 +19,10 @@ $fontSecondary: #ffffff;
     animation: colorMe ease-in-out 500ms forwards;
 }
 
+.nav_icon {
+    font-size: 1.7rem;
+}
+
 @keyframes colorMe {
     from {
         background: transparent;

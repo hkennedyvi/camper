@@ -51,7 +51,7 @@ class NavBar extends Component {
                 </div>
                 <div>
                     <a href="/">
-                        CART
+                        <i className="nav_icon fas fa-shopping-cart"></i>
                     </a>
                 </div>
             </nav>

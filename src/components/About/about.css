@@ -1,0 +1,61 @@
+.about_card {
+  background: #f8debb;
+  margin: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text_container {
+  max-width: 30%;
+  padding: 4rem 4rem 4rem 0;
+}
+
+.about_copy {
+  line-height: 2.5rem;
+}
+
+.image_container {
+  max-width: 70%;
+  min-width: 35rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.sm_header {
+  position: absolute;
+  top: 20%;
+  left: 2rem;
+}
+
+.about_image {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .about_card {
+    margin: 0;
+    padding: 0 0 10rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .text_container {
+    max-width: 100%;
+    padding: 4rem;
+  }
+  .image_container {
+    max-width: 100%;
+  }
+  .sm_header {
+    position: relative;
+  }
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,93 @@
+.navbar {
+  position: fixed;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 1fr 1fr 1fr 1fr 3fr;
+      grid-template-columns: 3fr 1fr 1fr 1fr 1fr 3fr;
+  width: 100vw;
+  height: 4rem;
+  background: transparent;
+  color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  z-index: 20;
+}
+
+.navbar.active {
+  -webkit-animation: colorMe ease-in-out 500ms forwards;
+          animation: colorMe ease-in-out 500ms forwards;
+}
+
+.nav_icon {
+  font-size: 1.7rem;
+}
+
+@-webkit-keyframes colorMe {
+  from {
+    background: transparent;
+    color: #ffffff;
+  }
+  to {
+    background: #c8e1f9;
+    color: #005757;
+  }
+}
+
+@keyframes colorMe {
+  from {
+    background: transparent;
+    color: #ffffff;
+  }
+  to {
+    background: #c8e1f9;
+    color: #005757;
+  }
+}
+
+.nav_item:hover {
+  cursor: pointer;
+}
+
+.nav_item:hover .above_line {
+  -webkit-animation: expand 500ms forwards;
+          animation: expand 500ms forwards;
+}
+
+.above_line {
+  visibility: hidden;
+  background: #005757;
+  height: 0.2rem;
+  border: none;
+}
+
+@-webkit-keyframes expand {
+  from {
+    visibility: hidden;
+    width: 0%;
+  }
+  to {
+    visibility: visible;
+    width: 50%;
+  }
+}
+
+@keyframes expand {
+  from {
+    visibility: hidden;
+    width: 0%;
+  }
+  to {
+    visibility: visible;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
