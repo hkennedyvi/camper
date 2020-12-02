@@ -10,23 +10,23 @@ class Footer extends Component {
                 <div className="footer_bottom">
                     <div className="footer_box">
                         <div className="footer_icons">
-                            <a href="/">
+                            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                                <i className="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                                 <i className="fab fa-twitter-square"></i>
                             </a>
-                            <a href="/">
-                                <i className="fab fa-twitter-square"></i>
+                            <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer">
+                                <i className="fab fa-pinterest-square"></i>
                             </a>
-                            <a href="/">
-                                <i className="fab fa-twitter-square"></i>
+                            <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+                                <i class="fab fa-google-plus-square"></i>
                             </a>
-                            <a href="/">
-                                <i className="fab fa-twitter-square"></i>
-                            </a>
-                            <a href="/">
-                                <i className="fab fa-twitter-square"></i>
-                            </a>
-                            <a href="/">
-                                <i className="fab fa-twitter-square"></i>
+                            <a href="https://www.mailchimp.com/" target="_blank" rel="noreferrer">
+                                <i class="fab fa-mailchimp"></i>
                             </a>
                         </div>
                     </div>
