@@ -23,6 +23,11 @@ $fontSecondary: #ffffff;
     font-size: 1.7rem;
 }
 
+svg {
+    max-width: 5rem;
+    max-height: 5rem;
+}
+
 @keyframes colorMe {
     from {
         background: transparent;
