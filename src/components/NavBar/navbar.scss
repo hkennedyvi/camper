@@ -16,7 +16,7 @@ $fontSecondary: #ffffff;
 }
 
 .navbar.active {
-    animation: colorMe ease-in-out 500ms forwards;
+    animation: colorNav ease-in-out 500ms forwards;
 }
 
 .nav_icon {
@@ -26,17 +26,45 @@ $fontSecondary: #ffffff;
 .logo {
     max-width: 4rem;
     max-height: 4rem;
+    stroke-width: 25;
 }
 
-@keyframes colorMe {
-    from {
-        background: transparent;
-        color: $fontSecondary;
-    }
+.logo_stroke, .logo_strokeround {
+    stroke: $fontSecondary;
+}
 
+.logo_strokeround {
+    stroke-linecap: round;
+}
+
+.logo_fill {
+    fill: $fontSecondary;
+}
+
+.logo_stroke.active, .logo_strokeround.active {
+    animation: colorLogoStroke ease-in-out 500ms forwards;
+}
+
+.logo_fill.active {
+    animation: colorLogoFill ease-in-out 500ms forwards;
+}
+
+@keyframes colorNav {
     to {
         background: $primaryBg;
         color: $fontPrimary;
+    }
+}
+
+@keyframes colorLogoStroke {
+    to {
+        stroke: $fontPrimary;
+    }
+}
+
+@keyframes colorLogoFill {
+    to {
+        fill: $fontPrimary;
     }
 }
 
@@ -63,7 +91,7 @@ $fontSecondary: #ffffff;
 
     to {
         visibility: visible;
-        width: 50%;
+        width: 75%;
     }
 }
 
